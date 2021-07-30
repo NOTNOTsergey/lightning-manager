@@ -68,3 +68,4 @@ def reset_passwd():
         )
     
     print(colorama.Fore.GREEN + 'password succesfully writed')
+    
