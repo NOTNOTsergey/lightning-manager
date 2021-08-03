@@ -197,6 +197,9 @@ def list_show():
         else:
             print(colorama.Fore.RED + 'authentication failed, try again')
         
+@click.command()
+def version():
+    print('version 0.1.0')
 
 
 
@@ -207,6 +210,7 @@ commands.add_command(write)
 commands.add_command(read)
 commands.add_command(remove)
 commands.add_command(list_show)
+commands.add_command(version)
 
 if __name__ == '__main__':
     commands()
