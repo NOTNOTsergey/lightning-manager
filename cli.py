@@ -76,11 +76,11 @@ def write(password: str, name: str, description: str):
 
     else:
         username = input(
-            colorama.Fore.YELLOW + 'enter new username : ' + colorama.Fore.LIGHTBLUE_EX
+            colorama.Fore.YELLOW + 'enter the username : ' + colorama.Fore.LIGHTBLUE_EX
         )
 
         passwd = input(
-            colorama.Fore.LIGHTYELLOW_EX + 'enter the password for new database (you can use password of any lenght) : ' + colorama.Fore.LIGHTBLUE_EX
+            colorama.Fore.LIGHTYELLOW_EX + 'enter the password for database : ' + colorama.Fore.LIGHTBLUE_EX
         )
 
         passwd = hash_100(passwd)
@@ -109,11 +109,11 @@ def read(name):
         print(colorama.Fore.RED + 'database is empty, there is nothing to read here')
     else:
         username = input(
-            colorama.Fore.YELLOW + 'enter new username : ' + colorama.Fore.LIGHTBLUE_EX
+            colorama.Fore.YELLOW + 'enter the username : ' + colorama.Fore.LIGHTBLUE_EX
         )
 
         passwd = input(
-            colorama.Fore.LIGHTYELLOW_EX + 'enter the password for new database (you can use password of any lenght) : ' + colorama.Fore.LIGHTBLUE_EX
+            colorama.Fore.LIGHTYELLOW_EX + 'enter the password for database : ' + colorama.Fore.LIGHTBLUE_EX
         )
 
         passwd = hash_100(passwd)
@@ -143,11 +143,11 @@ def remove(name):
         print(colorama.Fore.RED + 'database is empty, there is nothing to remove here')
     else:
         username = input(
-            colorama.Fore.YELLOW + 'enter new username : ' + colorama.Fore.LIGHTBLUE_EX
+            colorama.Fore.YELLOW + 'enter the username : ' + colorama.Fore.LIGHTBLUE_EX
         )
 
         passwd = input(
-            colorama.Fore.LIGHTYELLOW_EX + 'enter the password for new database (you can use password of any lenght) : ' + colorama.Fore.LIGHTBLUE_EX
+            colorama.Fore.LIGHTYELLOW_EX + 'enter the password for database : ' + colorama.Fore.LIGHTBLUE_EX
         )
 
         passwd = hash_100(passwd)
@@ -175,11 +175,11 @@ def list_show():
         print(colorama.Fore.RED + 'database is empty, there is nothing to show here')
     else:
         username = input(
-            colorama.Fore.YELLOW + 'enter new username : ' + colorama.Fore.LIGHTBLUE_EX
+            colorama.Fore.YELLOW + 'enter the username : ' + colorama.Fore.LIGHTBLUE_EX
         )
 
         passwd = input(
-            colorama.Fore.LIGHTYELLOW_EX + 'enter the password for new database (you can use password of any lenght) : ' + colorama.Fore.LIGHTBLUE_EX
+            colorama.Fore.LIGHTYELLOW_EX + 'enter the password for database : ' + colorama.Fore.LIGHTBLUE_EX
         )
 
         passwd = hash_100(passwd)
