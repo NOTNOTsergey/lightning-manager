@@ -13,7 +13,7 @@
 | name                  | link                                                         |
 | --------------------- | ------------------------------------------------------------ |
 | **LIGHTNING manager** | https://github.com/NOTNOTsergey/password-manager/tree/lightning-manager |
-| **Password manager**  | https://github.com/NOTNOTsergey/password-manager/tree/password-manager |
+| **Password manager**  | https://github.com/NOTNOTsergey/password-manager/ |
 
 ## - Installation
 
@@ -26,6 +26,7 @@ git clone 'the link you choose'
 #### First launch
 
 ```bash
+echo >> database
 python cli.py 
 ```
 
