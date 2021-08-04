@@ -19,6 +19,8 @@
 
 ```bash
 git clone 'the link you choose'
+pip install -r requirments
+echo >> database
 ```
 
 ## - Using LIGHTNING manager
@@ -26,7 +28,6 @@ git clone 'the link you choose'
 #### First launch
 
 ```bash
-echo >> database
 python cli.py 
 ```
 
