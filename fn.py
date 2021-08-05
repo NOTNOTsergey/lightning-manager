@@ -32,6 +32,15 @@ def write_to_db(users: List, data: Dict):
         pickle.dump(users, file)
         pickle.dump(data, file)
 
+def write_backup(filename: str, users: List, data: Dict, time: str):
+    '''
+    write backups of the database
+    '''
+    with open(os.path.join(os.getcwd(), 'backups/' + filename) , 'wb') as file:
+        pickle.dump(users, file)
+        pickle.dump(data, file)
+        pickle.dump(time, file)
+
 def read_db()-> List:
     '''
     returns list of users and data dictionary in list
@@ -42,6 +51,17 @@ def read_db()-> List:
             return [pickle.load(file), pickle.load(file)]
     except:
         return [[], {}]
+
+def read_backup(filename: str)-> List:
+    '''
+    returns list of users and data dictionary in list
+    [users: list, data: dict, time: str]
+    '''
+    try:
+        with open(os.path.join(os.getcwd(), 'backups/' + filename), 'rb') as file:
+            return [pickle.load(file), pickle.load(file), pickle.load(file)]
+    except:
+        return [[], {}, '']
 
 
 

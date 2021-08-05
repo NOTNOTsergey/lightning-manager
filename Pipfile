@@ -9,3 +9,8 @@ name = "pypi"
 
 [requires]
 python_version = "3.9"
+colorama
+pycryptodome
+pickle
+click
+hashib
