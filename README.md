@@ -39,7 +39,7 @@ python cli.py
 python cli.py version
 ```
 
-The latest version now is 0.1.0
+The latest version now is 0.1.1
 
 ## - Bugs
     If you foung a bug, write an issue please
