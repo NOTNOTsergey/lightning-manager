@@ -34,7 +34,7 @@ python cli.py
 
 ## - Versions
 
-​	You can find out the version of your manager by entering the command
+​		You can find out the version of your manager by entering the command
 
 ```bash
 python cli.py version
@@ -43,7 +43,8 @@ python cli.py version
 The latest version now is 0.1.1
 
 ## - Updates
-    You can update the application in one command:
+You can update the application in one command:
+
 ```bash
 ./cli.py update 
 ```
@@ -53,27 +54,28 @@ python cli.py update
 ```
 
 ## - Backups
-    When you use a computer, you can accidentally lose your database. In order not to lose the entire database, you can create
-backups of the database as you use it. The manager will automatically replace them with new ones if there are more than 5 backups.
+​	When you use a computer, you can accidentally lose your database. In order not to lose the entire database, you can create backups of the database as you use it. The manager will automatically replace them with new ones if there are more than 5 backups.
 command is:
+
 ```bash
 ./cli.py backup
 ```
-    You can restore backup in 1 command:
+You can restore backup in 1 command:
+
 ```bash
 ./cli.py restore [number of the backup in base]
 ```
-to restore latest backup type:
+To restore latest backup type:
 ```bash
 ./cli.py restore --latest
 ```
-to restore oldest backup type:
+To restore oldest backup type:
 ```bash
 ./cli.py restore --oldest
 ```
 
 ## - Bugs
-    If you foung a bug, write an issue please
+​	If you found a bug, write an issue please
 
 # Enjoy...
 
