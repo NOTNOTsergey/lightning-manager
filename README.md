@@ -19,7 +19,7 @@ version 0.1.1
 ## - Installation
 
 ```bash
-git clone 'the link you choose'
+git clone 'the link that you choose'
 pip install -r requirments
 echo >> database
 ```
