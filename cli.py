@@ -1,4 +1,4 @@
-#! /usr/bin/python
+# no shebangs because program can't get database adress and crashes
 
 
 import os
