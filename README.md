@@ -46,10 +46,6 @@ The latest version now is 0.1.1
 You can update the application in one command:
 
 ```bash
-./cli.py update 
-```
-or 
-```bash
 python cli.py update
 ```
 
